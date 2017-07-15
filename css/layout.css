@@ -1,0 +1,362 @@
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        .container                                  { width: 768px; }
+        .container .column,
+        .container .columns                         { margin-left: 10px; margin-right: 10px;  }
+        .column.alpha, .columns.alpha               { margin-left: 0; margin-right: 10px; }
+        .column.omega, .columns.omega               { margin-right: 0; margin-left: 10px; }
+
+        .container .one.column                      { width: 28px; }
+        .container .two.columns                     { width: 76px; }
+        .container .three.columns                   { width: 124px; }
+        .container .four.columns                    { width: 172px; }
+        .container .five.columns                    { width: 220px; }
+        .container .six.columns                     { width: 268px; }
+        .container .seven.columns                   { width: 316px; }
+        .container .eight.columns                   { width: 364px; }
+        .container .nine.columns                    { width: 412px; }
+        .container .ten.columns                     { width: 460px; }
+        .container .eleven.columns                  { width: 508px; }
+        .container .twelve.columns                  { width: 556px; }
+        .container .thirteen.columns                { width: 604px; }
+        .container .fourteen.columns                { width: 652px; }
+        .container .fifteen.columns                 { width: 700px; }
+        .container .sixteen.columns                 { width: 748px; }
+
+        .container .one-third.column                { width: 236px; }
+        .container .two-thirds.column               { width: 492px; }
+
+        /* Offsets */
+        .container .offset-by-one                   { padding-left: 48px; }
+        .container .offset-by-two                   { padding-left: 96px; }
+        .container .offset-by-three                 { padding-left: 144px; }
+        .container .offset-by-four                  { padding-left: 192px; }
+        .container .offset-by-five                  { padding-left: 240px; }
+        .container .offset-by-six                   { padding-left: 288px; }
+        .container .offset-by-seven                 { padding-left: 336px; }
+        .container .offset-by-eight                 { padding-left: 348px; }
+        .container .offset-by-nine                  { padding-left: 432px; }
+        .container .offset-by-ten                   { padding-left: 480px; }
+        .container .offset-by-eleven                { padding-left: 528px; }
+        .container .offset-by-twelve                { padding-left: 576px; }
+        .container .offset-by-thirteen              { padding-left: 624px; }
+        .container .offset-by-fourteen              { padding-left: 672px; }
+        .container .offset-by-fifteen               { padding-left: 720px; }
+
+        .container .page-content.with-sidebar                     { width: 528px; }
+        .container .with-sidebar .four.columns                    { width: 112px; }
+        .container .with-sidebar .eight.columns                   { width: 244px; }
+        .container .with-sidebar .twelve.columns                  { width: 376px; }
+        .container .with-sidebar .sixteen.columns                 { width: 498px; }
+        .container .with-sidebar .one-third.column                { width: 156px; }
+        .container .with-sidebar .two-thirds.column               { width: 322px; }
+    }
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+        .container { width: 300px; }
+        .columns, .column { margin: 0 10px; }
+
+        .container .one.column,
+        .container .two.columns,
+        .container .three.columns,
+        .container .four.columns,
+        .container .five.columns,
+        .container .six.columns,
+        .container .seven.columns,
+        .container .eight.columns,
+        .container .nine.columns,
+        .container .ten.columns,
+        .container .eleven.columns,
+        .container .twelve.columns,
+        .container .thirteen.columns,
+        .container .fourteen.columns,
+        .container .fifteen.columns,
+        .container .sixteen.columns,
+        .container .one-third.column,
+        .container .two-thirds.column { width: 280px; }
+
+        .container .one_half_fluid,
+        .container .one_half_fluid.last,
+        .container .one_third_fluid,
+        .container .one_third_fluid.last,
+        .container .one_fourth_fluid,
+        .container .one_fourth_fluid.last,
+        .container .two_third_fluid,
+        .container .two_third_fluid.last,
+        .container .three_fourth_fluid,
+        .container .three_fourth_fluid.last,
+        .container .one_fifth_fluid,
+        .container .one_fifth_fluid.last { width: 100%; margin: 0; }
+
+        /* Offsets */
+        .container .offset-by-one,
+        .container .offset-by-two,
+        .container .offset-by-three,
+        .container .offset-by-four,
+        .container .offset-by-five,
+        .container .offset-by-six,
+        .container .offset-by-seven,
+        .container .offset-by-eight,
+        .container .offset-by-nine,
+        .container .offset-by-ten,
+        .container .offset-by-eleven,
+        .container .offset-by-twelve,
+        .container .offset-by-thirteen,
+        .container .offset-by-fourteen,
+        .container .offset-by-fifteen { padding-left: 0; }
+
+        .container .page-content.with-sidebar                     { width: 300px; }
+        .container .with-sidebar .four.columns,
+        .container .with-sidebar .eight.columns,
+        .container .with-sidebar .twelve.columns,
+        .container .with-sidebar .sixteen.columns,
+        .container .with-sidebar .one-third.column,
+        .container .with-sidebar .two-thirds.column               { width: 280px; }
+
+    }
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .container { width: 420px; }
+        .columns, .column { margin: 0 10px; }
+
+        .container .one.column,
+        .container .two.columns,
+        .container .three.columns,
+        .container .four.columns,
+        .container .five.columns,
+        .container .six.columns,
+        .container .seven.columns,
+        .container .eight.columns,
+        .container .nine.columns,
+        .container .ten.columns,
+        .container .eleven.columns,
+        .container .twelve.columns,
+        .container .thirteen.columns,
+        .container .fourteen.columns,
+        .container .fifteen.columns,
+        .container .sixteen.columns,
+        .container .one-third.column,
+        .container .two-thirds.column { width: 400px; }
+
+        .container .one_half_fluid,
+        .container .one_half_fluid.last,
+        .container .one_third_fluid,
+        .container .one_third_fluid.last,
+        .container .one_fourth_fluid,
+        .container .one_fourth_fluid.last,
+        .container .two_third_fluid,
+        .container .two_third_fluid.last,
+        .container .three_fourth_fluid,
+        .container .three_fourth_fluid.last,
+        .container .one_fifth_fluid,
+        .container .one_fifth_fluid.last { width: 100%; margin: 0; }
+
+        .container .page-content.with-sidebar                     { width: 420px; }
+        .container .with-sidebar .four.columns,
+        .container .with-sidebar .eight.columns,
+        .container .with-sidebar .twelve.columns,
+        .container .with-sidebar .sixteen.columns,
+        .container .with-sidebar .one-third.column,
+        .container .with-sidebar .two-thirds.column               { width: 400px; }
+
+    }
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) width = 748px*/
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+        .responsive .slogan-wrapper,
+        .responsive .slider-wrapper,
+        .responsive .content-wrapper,
+        .responsive .footer-wrapper,
+        .responsive .footer-bottom-wrapper,
+        .responsive .header-wrapper,
+        .responsive .top-wrapper,
+        .responsive .navigation-wrapper {width: 100%;border-radius: 0;-webkit-border-radius: 0;-moz-border-radius: 0;}
+        .responsive .info-wrapper {width: 250px;}
+        .responsive .logo-wrapper {margin-left: 20px;}
+        .responsive .sf-menu > li > a {padding: 20px 10px;}
+
+        .responsive .flexslider-wrapper .flex-direction-nav .flex-next {right: 0;}
+        .responsive .flexslider-wrapper .flex-direction-nav .flex-prev {left: 0;}
+
+        .responsive .callout {width: 708px;margin-left: 10px;}
+        .responsive .callout .columns {width: 685px;}
+        .responsive .callout a.button {float: left; margin-top: 0;}
+
+        .responsive .portfolio-item.four .description-inner {padding: 5px 10px;}
+        .responsive .portfolio-item.four .item-hover .icon {margin: 0 10px 5px;}
+
+        .responsive table.responsive-table {margin-bottom: 0;}    
+        .responsive .pinned {position: absolute; left: 0; top: 0; width: 35%; overflow: hidden; overflow-x: scroll;}
+        .responsive .pinned table {border-right: none; border-left: none; width: 100%;}
+        .responsive .pinned table th,
+        .responsive .pinned table td {white-space: nowrap;}
+        .responsive .pinned td:last-child {border-bottom: 0;}
+        .responsive div.table-wrapper {position: relative; margin-bottom: 20px; overflow: hidden;}
+        .responsive div.table-wrapper div.scrollable table {margin-left: 35%;}
+        .responsive div.table-wrapper div.scrollable {overflow: scroll; overflow-y: hidden;}  
+        .responsive table.responsive-table td,
+        .responsive table.responsive-table th {position: relative; white-space: nowrap; overflow: hidden;}
+        .responsive table.responsive-table th:first-child,
+        .responsive table.responsive-table td:first-child,
+        .responsive table.responsive-table.pinned td {display: none;}
+
+        .responsive .pricing-3-col {width: 248px;}
+        .responsive .pricing-4-col {width: 186px;}
+
+        .responsive p.contact-input {width: 220px;}
+        .responsive .contact-input input {width: 194px;}
+        .responsive .contact-textarea textarea {width: 434px;}
+
+        .responsive p.comment-form-author,
+        .responsive p.comment-form-email,
+        .responsive p.comment-form-url {width: 156px;}
+        .responsive #commentform input {width: 134px;}
+        .responsive #commentform textarea {width: 486px;}
+
+    }
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) width = 400px */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+        .responsive .slogan-wrapper,
+        .responsive .slider-wrapper,
+        .responsive .content-wrapper,
+        .responsive .footer-wrapper,
+        .responsive .footer-bottom-wrapper,
+        .responsive .header-wrapper,
+        .responsive .top-wrapper,
+        .responsive .navigation-wrapper {width: 100%;border-radius: 0;-webkit-border-radius: 0;-moz-border-radius: 0;}
+        .responsive .info-wrapper {max-width: 400px; text-align: center; float: none; margin: 0 auto; display: block;}
+        .responsive .info-inner {float: none; margin: 0 auto; }
+        .reposnsive .info-inner .info-phone,
+        .responsive .info-inner .info-mail {display: block;}
+        .responsive .logo-wrapper {float: none; margin: 20px auto; text-align: center;}
+        .responsive .logo {display: block;}
+        .responsive .navigation-wrapper {padding: 20px 0;}
+        .responsive .navigation-wrapper .sf-menu {display: none;}
+        .responsive .navigation-wrapper select {display: block !important; width: 400px !important; margin: 0 auto;}
+        .responsive .page-title h1 {font-size: 26px;}
+        .responsive .page-title span {font-size: 12px;}
+
+        .responsive .flexslider-wrapper .flex-direction-nav .flex-next {right: 0;}
+        .responsive .flexslider-wrapper .flex-direction-nav .flex-prev {left: 0;}
+        .responsive .flex-caption {display: none;}
+
+        .responsive .callout {width: 360px;margin-left: 10px;}
+        .responsive .callout .columns {width: 337px;}
+        .responsive .callout h2 {font-size: 20px;}
+        .responsive .callout a.button {float: left; margin-top: 0;}
+
+        .responsive .features-tabs .features-nav li.ui-state-active a:after {border: none;}
+
+        .responsive table.responsive-table {margin-bottom: 0;}    
+        .responsive .pinned {position: absolute; left: 0; top: 0; width: 35%; overflow: hidden; overflow-x: scroll;}
+        .responsive .pinned table {border-right: none; border-left: none; width: 100%;}
+        .responsive .pinned table th,
+        .responsive .pinned table td {white-space: nowrap;}
+        .responsive .pinned td:last-child {border-bottom: 0;}
+        .responsive div.table-wrapper {position: relative; margin-bottom: 20px; overflow: hidden;}
+        .responsive div.table-wrapper div.scrollable table {margin-left: 35%;}
+        .responsive div.table-wrapper div.scrollable {overflow: scroll; overflow-y: hidden;}  
+        .responsive table.responsive-table td,
+        .responsive table.responsive-table th {position: relative; white-space: nowrap; overflow: hidden;}
+        .responsive table.responsive-table th:first-child,
+        .responsive table.responsive-table td:first-child,
+        .responsive table.responsive-table.pinned td {display: none;}
+
+        .responsive .pricing-3-col {width: 399px;}
+        .responsive .pricing-4-col {width: 199px;}
+
+        .responsive p.contact-input {width: 400px; margin-right: 0; }
+        .responsive .contact-input input {width: 374px;}
+        .responsive .contact-textarea textarea {width: 374px;}
+
+        .responsive p.comment-form-author,
+        .responsive p.comment-form-email,
+        .responsive p.comment-form-url {width: 400px;}
+        .responsive #commentform input {width: 378px;}
+        .responsive #commentform textarea {width: 378px; height: 100px;}
+    }
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) width = 280px*/
+	@media only screen and (max-width: 479px) {
+        .responsive .slogan-wrapper,
+        .responsive .slider-wrapper,
+        .responsive .content-wrapper,
+        .responsive .footer-wrapper,
+        .responsive .footer-bottom-wrapper,
+        .responsive .header-wrapper,
+        .responsive .top-wrapper,
+        .responsive .navigation-wrapper {width: 100%;border-radius: 0;-webkit-border-radius: 0;-moz-border-radius: 0;}
+        .responsive .info-wrapper {max-width: 280px; text-align: center; float: none; margin: 0 auto; display: block;}
+        .responsive .info-inner {float: none; margin: 0 auto;}
+        .reposnsive .info-inner .info-phone,
+        .responsive .info-inner .info-mail {display: block;}
+        .responsive .logo-wrapper {float: none; margin: 20px auto; width:260px; text-align: center;}
+        .responsive .logo {display: block; width:}
+        .responsive .navigation-wrapper {padding: 20px 0;}
+        .responsive .navigation-wrapper .sf-menu {display: none;}
+        .responsive .navigation-wrapper select {display: block !important; width: 280px !important; margin: 0 auto;}
+        .responsive .page-title h1 {font-size: 22px;}
+        .responsive .page-title span {font-size: 12px;}
+
+        .responsive .flexslider-wrapper .flex-direction-nav .flex-next {right: 0;}
+        .responsive .flexslider-wrapper .flex-direction-nav .flex-prev {left: 0;}
+        .responsive .flex-caption {display: none;}
+
+        .responsive .callout {width: 240px;margin-left: 10px;}
+        .responsive .callout .columns {width: 213px;}
+        .responsive .callout h2 {font-size: 18px;}
+        .responsive .callout a.button {float: left; margin-top: 0;}
+
+        .responsive .features-tabs .features-nav li.ui-state-active a:after {border: none;}
+
+        .responsive table.responsive-table {margin-bottom: 0;}    
+        .responsive .pinned {position: absolute; left: 0; top: 0; width: 35%; overflow: hidden; overflow-x: scroll;}
+        .responsive .pinned table {border-right: none; border-left: none; width: 100%;}
+        .responsive .pinned table th,
+        .responsive .pinned table td {white-space: nowrap;}
+        .responsive .pinned td:last-child {border-bottom: 0;}
+        .responsive div.table-wrapper {position: relative; margin-bottom: 20px; overflow: hidden;}
+        .responsive div.table-wrapper div.scrollable table {margin-left: 35%;}
+        .responsive div.table-wrapper div.scrollable {overflow: scroll; overflow-y: hidden;}  
+        .responsive table.responsive-table td,
+        .responsive table.responsive-table th {position: relative; white-space: nowrap; overflow: hidden;}
+        .responsive table.responsive-table th:first-child,
+        .responsive table.responsive-table td:first-child,
+        .responsive table.responsive-table.pinned td {display: none;}
+
+        .responsive .pricing-3-col, .responsive .pricing-4-col {width: 279px;}
+
+        .responsive p.contact-input {width: 280px; margin-right: 0; }
+        .responsive .contact-input input {width: 254px;}
+        .responsive .contact-textarea textarea {width: 254px;}
+
+        .responsive p.comment-form-author,
+        .responsive p.comment-form-email,
+        .responsive p.comment-form-url {width: 280px;}
+        .responsive #commentform input {width: 258px;}
+        .responsive #commentform textarea {width: 258px; height: 100px;}
+    }

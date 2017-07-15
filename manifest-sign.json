@@ -1,0 +1,15 @@
+{
+    "short_name": "SAC17",
+    "name": "Rowan IEEE SAC17 Signs",
+    "icons": [
+        {
+            "src": "images/favicon_144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        }
+    ],
+    "start_url": "/signage",
+    "background_color": "#efefef",
+    "display": "fullscreen",
+    "orientation": "portrait"
+}

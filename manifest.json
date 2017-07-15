@@ -1,0 +1,22 @@
+{
+    "prefer_related_applications": true,
+    "related_applications": [
+    {
+        "platform": "play",
+        "id": "org.rowanieee.sac"
+    }
+    ],
+    "short_name": "SAC17",
+    "name": "Rowan IEEE SAC17 App",
+    "icons": [
+        {
+            "src": "images/favicon_144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        }
+    ],
+    "start_url": "/?p=home",
+    "background_color": "#2196F3",
+    "display": "standalone",
+    "orientation": "portrait"
+}

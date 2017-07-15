@@ -1,0 +1,61 @@
+[
+    <?php 
+        events = array();
+        echo "{'start': ". events->startTime . "}"
+    ?>
+]
+
+[
+    {"start": "8:00", "end": "9:00", "name":"Registration", "location":"Student Center Ballroom", "day": 1},
+    {"start": "8:00", "end": "9:00", "name":"Breakfast & Coffee/Tea", "location":"Student Center Ballroom", "day": 1},
+    {"start": "9:00", "end": "9:20", "name":"Opening Ceremony", "location":"Student Center Ballroom", "day": 1},
+    {"start": "9:20", "end": "10:10", "name":"Keynote Speaker: Michael McCloskey", "location":"Student Center Ballroom", "day": 1},
+    {"start": "10:10", "end": "10:40", "name":"AM Break", "location":"Student Center Ballroom/Foyer", "day": 1},
+    {"start": "10:10", "end": "12:00", "name":"Industrial Wireless Systems Workshop", "location":"Room 127", "day": 1},
+    {"start": "10:40", "end": "12:00", "name":"Parallel Oral Sessions", "location":"Room 144 & Room 221", "day": 1},
+    {"start": "12:00", "end": "13:40", "name":"Lunch", "location":"Student Center Ballroom", "day": 1},
+    {"start": "13:40", "end": "15:00", "name":"Parallel Oral Sessions", "location":"Room 144 & Room 221", "day": 1},
+    {"start": "13:40", "end": "15:00", "name":"Industrial Wireless Systems Workshop", "location":"Room 127", "day": 1},
+    {"start": "15:00", "end": "16:00", "name":"Poster Session #1 (Recent Results) & PM Break", "location":"Student Center Ballroom", "day": 1},
+    {"start": "16:00", "end": "17:20", "name":"Parallel Oral Sessions", "location":"Room 144 & Room 221", "day": 1},
+    {"start": "16:00", "end": "17:20", "name":"Industrial Wireless Systems Workshop", "location":"Room 127", "day": 1},
+    {"start": "18:00", "end": "20:00", "name":"Welcome Reception", "location":"Venue: Rowan Hall Atrium", "day": 1},
+
+    {"start": "8:00", "end": "9:00", "name":"Registration", "location":"REXT Lobby", "day": 2, "floor": "1"},
+    {"start": "8:00", "end": "9:00", "name":"Breakfast & Coffee/Tea", "location":"REXT Floor 1 & 3", "day": 2, "floor": "13"},
+    {"start": "9:00", "end": "10:00", "name":"Parallel Oral Sessions", "location":"REXT Rooms 319, 320, & 321", "day": 2, "floor": "3"},
+    {"start": "9:00", "end": "10:00", "name":"Sensor App Development Workshop REXT Room 141", "location":"REXT Room 141", "day": 2, "floor": "1"},
+    {"start": "10:00", "end": "11:00", "name":"Keynote Speaker: David Prutchi & SAS 2018 Presentation", "location":"Rowan Hall Auditorium", "day": 2, "floor": "1"},
+    {"start": "11:00", "end": "12:00", "name":"Poster Session #2", "location":"REXT Lobby", "day": 2, "floor": "1"},
+    {"start": "11:00", "end": "12:00", "name":"AM Break", "location":"REXT Floor 1 & 3", "day": 2, "floor": "13"},
+    {"start": "11:00", "end": "12:00", "name":"PlugFest: IEEE 21451", "location":"Room 341", "day": 2, "floor": "3"},
+    {"start": "11:00", "end": "12:00", "name":"Sensor App Development Workshop", "location":"REXT Room 141", "day": 2, "floor": "1"},
+    {"start": "12:00", "end": "13:50", "name":"Lunch", "location":"Rowan Hall Auditorium", "day": 2, "floor": "1"},
+    {"start": "13:50", "end": "15:10", "name":"Parallel Oral Sessions", "location":"REXT Rooms 319, 320, & 321", "day": 2, "floor": "3"},
+    {"start": "13:50", "end": "15:10", "name":"PlugFest: IEEE 21451", "location":"Room 341", "day": 2, "floor": "3"},
+    {"start": "13:50", "end": "15:10", "name":"Sensor App Development Workshop", "location":"REXT Room 141", "day": 2, "floor": "1"},
+    {"start": "15:10", "end": "15:40", "name":"PM Break", "location":"REXT Floor 1 & 3", "day": 2, "floor": "13"},
+    {"start": "15:40", "end": "17:00", "name":"Parallel Oral Sessions", "location":"REXT Rooms 319, 320, & 321", "day": 2, "floor": "3"},
+    {"start": "15:40", "end": "17:00", "name":"PlugFest: IEEE 21451", "location":"Room 341", "day": 2, "floor": "3"},
+    {"start": "15:40", "end": "17:00", "name":"Sensor App Development Workshop", "location":"REXT Room 141", "day": 2, "floor": "1"},
+    {"start": "19:00", "end": "22:00", "name":"Gala Dinner", "location":"Venue: Marriot Glassboro Ballroom Award Ceremony", "day": 2, "floor": "1"},
+
+    {"start": "8:00", "end": "8:30", "name":"Registration", "location":"REXT Lobby", "day": 3, "floor": "1"},
+    {"start": "8:00", "end": "8:30", "name":"Breakfast & Coffee/Tea", "location":"REXT Floor 1 & 3", "day": 3, "floor": "13"},
+    {"start": "8:30", "end": "14:40", "name": "PlugFest: IEEE 21451", "location": "Room 341", "day": 3, "floor": "13"},
+    {"start": "8:30", "end": "9:50", "name": "Open Forum: Two papers on Magnetometry", "location": "Room 320", "day": 3, "floor": "13"},
+    {"start": "8:30", "end": "9:50", "name": "W11: Sensor Networks P1", "location": "Room 141", "day": 3, "floor": "13"},
+    {"start": "8:30", "end": "9:50", "name": "W12: Novel Sensing Technologies P1", "location": "Room 321", "day": 3, "floor": "13"},
+    {"start": "10:00", "end": "10:50", "name": "Keynote #2: David Prutchi", "location": "Rowan Hall Auditorium", "day": 3, "floor": "13"},
+    {"start": "10:50", "end": "11:00", "name": "SAS 2018 Presentation", "location": "Rowan Hall Auditorium", "day": 3, "floor": "13"},
+    {"start": "11:00", "end": "11:20", "name": "AM Break", "location": "REXT Floor 1 & 3", "day": 3, "floor": "13"},
+    {"start": "11:20", "end": "12:40", "name": "W21: Sensor Networks P2", "location": "Room 141", "day": 3, "floor": "13"},
+    {"start": "11:20", "end": "12:40", "name": "W22: Novel Sensing Tech P2", "location": "Room 321", "day": 3, "floor": "13"},
+    {"start": "11:20", "end": "12:40", "name": "Open Forum: Introduction to Memristors", "location": "Room 320", "day": 3, "floor": "13"},
+    {"start": "12:40", "end": "13:40", "name": "Lunch", "location":"REXT Lobby", "day": 3, "floor": "13"},
+    {"start": "13:15", "end": "13:40", "name": "Measurement Needs 2", "location": "Room 319 & 320", "day": 3, "floor" : "13"},
+    {"start": "13:40", "end": "14:40", "name": "W31: Sensor Applications", "location": "Room 141", "day": 3, "floor": "13"},
+    {"start": "13:40", "end": "14:40", "name": "W32: Robotics and Automation", "location": "Room 321", "day": 3, "floor": "13"},
+    {"start": "13:40", "end": "14:40", "name": "Open Forum: Still Open", "location": "Room 320", "day": 3, "floor": "13"},
+    {"start": "14:40", "end": "15:00", "name": "Closing Ceremony", "location":"Room 319 & 320", "day": 3, "floor": "13"}
+]

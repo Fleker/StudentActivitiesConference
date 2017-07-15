@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Digital Signage for your event</title>
+        <!-- You can change out the fonts here if you want -->
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <link href="main.css" rel="stylesheet">
+        <!-- Mobile Specific Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="manifest" href="../manifest-sign.json">
+        <script src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
+        <!-- Import our configuration info -->
+        <script src="config.js"></script>
+    </head>
+    <body>
+        <div id='center'>
+            <img id='background' src='background.PNG'/>
+        </div>
+        <div id='content'>
+            <div id='sac_colors'>
+                <div id='red_left' style='position: fixed; left: 0; top: 50px; background-color: #d31145; height: 20px; width: 100px;'></div>
+                <div id='blue_left' style='position: fixed; left: 0; top: 80px; background-color: #0081c5; height: 20px; width: 130px;'></div>
+                <div id='yellow_left' style='position: fixed; left: 0; top: 110px; background-color: #fbcf0d; height: 20px; width: 160px;'></div>
+                <div id='red_right' style='position: fixed; left: 1140px; top: 50px; background-color: #d31145; height: 20px; width: 1000px;'></div>
+                <div id='blue_right' style='position: fixed; left: 1190px; top: 80px; background-color: #0081c5; height: 20px; width: 1000px;'></div>
+                <div id='yellow_right' style='position: fixed; left: 1240px; top: 110px; background-color: #fbcf0d; height: 20px; width: 1000px;'></div>
+            </div>
+            <h1 id='title' style='margin-left: 100px;'></h1>
+            <h2 id='date_time'></h2>
+            <h3 id='rightnow'>Right Now</h3>
+            <div id='now'>
+                <h2 id='now_title'></h2>
+                <h3 id='now_time'></h3>
+                <h4 id='now_place'></h4>
+            </div>
+            <h5 id='error'></h5>
+
+            <div id='next'> 
+                <h2 id='next_title'></h2>
+                <h3 id='next_time'></h3>
+                <h4 id='next_place'></h4>
+            </div>
+            
+            <div id='thanks'>
+                <h2 id='thanks_text'></h2>
+            </div>
+        </div>
+        <script src="controller.js"></script>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+#styleswitcher-panel {
+	position: fixed;
+	top: 100px;
+	z-index: 999;
+}
+#styleswitcher-panel-inner {
+	background: #4a4a4a;
+	color: #bbb;
+	float: left;
+	padding: 20px;
+	width: 160px;
+}
+#styleswitcher-panel-open {
+	background: url(open.jpg) no-repeat;
+	display: block;
+	float: right;
+	height: 40px;
+	width: 40px;
+}
+#styleswitcher-panel h6 {
+	color: #aaa;
+	border-bottom: 1px solid #666;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+#styleswitcher-panel ul.switcher li a {
+	width: 35px;
+	height: 35px;
+	display: block;
+	float: left;
+	margin: 0 4px 4px 0;
+	border: 1px solid #333;
+}
+#styleswitcher-panel ul.switcher li a.m0 {
+	margin-right: 0;
+}
+#styleswitcher-panel ul.switcher li a.big {
+	width: 76px;
+}

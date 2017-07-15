@@ -1,0 +1,143 @@
+/* You can swap out fonts here if you want */
+body {
+    color: #333;
+    background-color:#efefef;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.5s;
+}
+#background {
+    margin-top: -24px;
+    left: 0;
+    height:100vh;
+    z-index: 0;
+    opacity: 0.1;
+}
+#content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    padding-left: 80px;
+    padding-top: 80px;
+}
+#center {
+    text-align: center;
+}
+
+h1 {
+    font-size: 28pt;
+    margin-top: -24px;
+}
+#content > h2 {
+    position: fixed;
+    opacity: 0.4;
+    bottom: 0px;
+    left: calc(100% - 280px);
+    width: 100vw;
+    text-transform: uppercase;
+    font-size: 22pt;
+}
+#content > h3 {
+    text-transform: uppercase;
+    font-size: 32pt;
+    opacity: 0.5;
+    margin-bottom: 16px;
+    margin-top: 96px;
+}
+#now {
+}
+#now table {
+    width: 100%;
+}
+#now h2, #now h3 {
+    font-size:24pt;
+}
+#now h3, #now h4 {
+    margin-left: 24px;
+}
+#now h4 {
+    font-size:18pt;
+    opacity: 0.7;
+}
+#next table {
+    width: calc(100% - 80px);
+}
+#next {
+    margin-top: 96px;
+}
+#next h2 {
+    opacity: 0.6;
+}
+#next h3, #next h4 {
+    opacity: 0.6;
+    margin-left: 16px;
+}
+#next td {
+    padding-left: 24px;
+}
+@media (max-width: 1024px) {
+    /* Optimized for small tablets */
+    #content > h2 {
+        font-size: 20pt;
+    }
+    #content > h3 {
+        font-size: 24pt;
+    }
+    #now h2, #now h3 {
+        font-size:20pt;
+    }
+    #now h4 {
+        font-size:20pt;
+    }
+    #next {
+        display: none;
+    }
+}
+@media (min-width: 1919px) {
+    /* Optimized for TVs */
+    h1 {
+        font-size: 40pt;
+    }
+    #content > h2 {
+        font-size: 36pt;
+        left: calc(100% - 410px);
+    }
+    #now table {
+        width: 1800px;
+    }
+    #now h2 {
+        font-size: 32pt;
+    }
+    #now h3 {
+        font-size: 29pt;
+    }
+    #now h4 {
+        font-size: 26pt;
+    }
+    #next {
+        margin-top: 130px;
+    }
+    #next table {
+        width: 1800px;
+    }
+    #next h2 {
+        font-size: 32pt;
+    }
+    #next h3, #next h4 {
+        font-size: 26pt;
+    }
+    #next h2, #next h3, #next h4, #now h2, #now h3, #now h4 {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    #thanks {
+        margin-top: 280px;
+    }
+}
+
+#error {
+    color: red;
+    font-size: 20pt;
+}
