@@ -1,0 +1,15 @@
+# SAC 17 Podfile
+
+use_frameworks!
+platform :ios, '8.0'
+
+pod 'Firebase/Storage'
+pod 'Firebase/Auth'
+pod 'Firebase/Crash'
+pod 'Firebase/Database'
+pod 'Firebase/RemoteConfig'
+
+pod ‘NearbyMessages’
+
+target 'SAC 17' do
+end

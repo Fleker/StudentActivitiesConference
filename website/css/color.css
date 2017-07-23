@@ -1,0 +1,167 @@
+/*-----------------------------------------------------------------------------------
+
+	Color style - main colors   |   Default vaules: primary #ff6d11, secondary #a8a8a8 
+	
+----------------------------------------------------------------------------------- */
+
+/* ---------------------------- */
+/*           General
+/* ---------------------------- */
+
+h6 .first-word {color: #ff6d11;}
+a {color: #ff6d11;}
+.highlight {background: #ff6d11;}
+::-moz-selection {background-color: #ff6d11;}
+::-webkit-selection {background-color: #ff6d11;}
+::selection {background-color: #ff6d11;}
+.divider-color {background: #ff6d11;}
+
+/* ---------------------------- */
+/*          Typography
+/* ---------------------------- */
+
+.dropcap1, .dropcap2, .dropcap3 {background: #ff6d11;}
+
+/* ---------------------------- */
+/*            Lists
+/* ---------------------------- */
+
+ul.the-icons li:hover {color: #ff6d11;}
+
+/* ---------------------------- */
+/*          Lightbox
+/* ---------------------------- */
+
+.lightbox-photo a {background: #ff6d11;}
+
+/* ---------------------------- */
+/*         Structure
+/* ---------------------------- */
+
+/* --------- NAVIGATION --------- */
+
+.sf-menu ul a:hover:before {border-left: 4px solid #ff6d11;}
+.sf-menu ul a:hover {border-left: 3px solid #ff6d11;}
+
+/* --------- BREADCRUMBS --------- */
+
+.breadcrumbs a:hover {color: #ff6d11;}
+
+/* ---------------------------- */
+/*          Content
+/* ---------------------------- */
+
+.flexslider-wrapper .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {background-color: #ff6d11;}
+.flex-control-paging li a.flex-active {background: #ff6d11;}
+
+/* --------- CAROUSEL/LATEST POSTS/LATEST PROJECTS --------- */
+
+.flex-carousel .flex-direction-nav .flex-next:hover {background-color: #ff6d11;}
+.flex-carousel .flex-direction-nav .flex-prev:hover {background-color: #ff6d11;}
+.hlp-description {background: #ff6d11;}
+
+/* --------- HOME LATEST BLOG POSTS CAROUSEL --------- */
+
+#hlb-flex-carousel h4 a:hover {color: #ff6d11;}
+
+/* --------- CALLOUT BOX --------- */
+
+.callout {border-left: 4px solid #ff6d11;}
+
+/* ---------------------------- */
+/*    UI Accordion and toggle
+/* ---------------------------- */
+
+.accordion h3 a:hover, .toggle h3 a:hover, .accordion h3.ui-state-active a:hover, .toggle h3.active a:hover {color: #ff6d11;}
+
+/* Tabs */
+
+.tabs ul.tabs-nav li.ui-state-active a {border-top: 1px solid #ff6d11;color: #ff6d11;}
+.tabs ul.tabs-nav li a:hover {color: #ff6d11;}
+
+/* Vetical Tabs */
+
+.tabs.vertical ul.tabs-nav li.ui-state-active a {border-left: 1px solid #ff6d11;}
+
+/* Features Tabs */
+
+.features-nav {border: 1px solid #a8a8a8;background: #ff6d11;}
+
+/* Vetical Features Tabs */
+
+.features-tabs.vertical ul.features-nav {border: 1px solid #a8a8a8;}
+
+/* ---------------------------- */
+/*        Content Slider
+/* ---------------------------- */
+
+.cs-slidecontrols li:hover {background: #ff6d11;}
+
+/* ---------------------------- */
+/*         Portfolio
+/* ---------------------------- */
+
+.portfolio-item-description {background: #ff6d11;}
+
+/* --------- Filter --------- */
+
+#portfolio-filters li:hover a, #portfolio-filters li.current a {background: #ff6d11;}
+#portfolio-filters li.current a:before,
+#portfolio-filters li.current a:after {border-top: 5px solid #ff6d11;}
+.flexslider-portfolio .flex-direction-nav .flex-next:hover, .flexslider-portfolio .flex-direction-nav .flex-prev:hover {background-color: #ff6d11;}
+
+/* --------------------------- */
+/*        PRICING TABLES       
+/* --------------------------- */
+
+.pt-column h3 {background: #ff6d11;}
+.pt-cost {background: #a8a8a8;}
+
+/* ---------------------------- */
+/*            Blog
+/* ---------------------------- */
+
+.post-top h1 a:hover {color: #ff6d11;}
+.post .meta a:hover {color: #ff6d11;}
+
+/* ---------------------------- */
+/*        Blog comments
+/* ---------------------------- */
+
+.comment-meta a:hover {color: #ff6d11;}
+
+/* ---------------------------- */
+/*           Sidebar
+/* ---------------------------- */
+
+.widget .lp-image a:hover img {background: #ff6d11;}
+.tagcloud a {background: #ff6d11;}
+.tagcloud a:hover {background: #a8a8a8;}
+
+/* ---------------------------- */
+/*           Footer
+/* ---------------------------- */
+
+.footer a:hover {color: #ff6d11;}
+.footer-bottom a:hover {color: #ff6d11;}
+
+/* ---------------------------- */
+/*         Flickr Feed
+/* ---------------------------- */
+
+#flickr_badges ul li a:hover img {background: #ff6d11;}
+
+/* ------------------------------------------ */
+/*     Default button color from shortcodes
+/* ------------------------------------------ */
+
+.button, button,
+.wpcf7-form input[type="submit"],
+.portfolio-navigation div a,
+#commentform input#submit {background: #ff6d11;}
+
+.button:hover,
+button:hover,
+.wpcf7-form input[type="submit"]:hover,
+.portfolio-navigation div a:hover,
+#commentform input#submit:hover {background: #a8a8a8;}

@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--parent=-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+
+        <!-- MaterialDrawer specific values -->
+        <item name="material_drawer_background">@color/md_white_1000</item>
+        <item name="material_drawer_primary_text">@color/colorPrimary</item>
+        <item name="material_drawer_primary_icon">@color/accent</item>
+        <item name="material_drawer_secondary_text">@color/material_drawer_secondary_text</item>
+        <item name="material_drawer_hint_text">@color/material_drawer_hint_text</item>
+        <item name="material_drawer_divider">@color/material_drawer_divider</item>
+        <item name="material_drawer_selected">@color/colorPrimary</item>
+        <item name="material_drawer_selected_text">@color/colorAccent</item>
+        <item name="material_drawer_header_selection_text">@color/material_drawer_header_selection_text</item>
+
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+
+    <style name="RowanTheme" parent="FirebaseUI">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/materialize_primary_dark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/md_yellow_700</item>
+        <item name="colorControlActivated">@color/md_brown_700</item>
+        <item name="colorControlHighlight">@color/md_brown_300</item>
+        <item name="android:windowBackground">@color/md_white_1000</item>
+    </style>
+</resources>

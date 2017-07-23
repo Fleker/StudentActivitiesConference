@@ -1,0 +1,96 @@
+apply plugin: 'com.android.application'
+
+def keystorePropertiesFile = rootProject.file("keystore.properties")
+def keystoreProperties = new Properties()
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
+
+android {
+    compileSdkVersion compileSdk
+    buildToolsVersion buildTools
+
+    signingConfigs {
+        release {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+        }
+    }
+
+    defaultConfig {
+        applicationId "org.rowanieee.sac"
+        minSdkVersion minSdk
+        targetSdkVersion targetSdk
+        versionCode 3
+        versionName "1.0.0-R3"
+        vectorDrawables.useSupportLibrary true
+
+        // Enabling MultiDex support.
+        multiDexEnabled true
+    }
+
+    productFlavors {
+        dev {
+            // dev utilizes minSDKVersion = 21 to allow the Android gradle plugin
+            // to pre-dex each module and produce an APK that can be tested on
+            // Android Lollipop without time consuming dex merging processes.
+            minSdkVersion 21
+        }
+        prod {
+            // The actual minSdkVersion for the application.
+            minSdkVersion minSdk
+        }
+    }
+
+    buildTypes {
+        debug {
+            buildConfigField "String", "FIREBASE_PARENT", "\"alpha\""
+        }
+
+        release {
+            signingConfig signingConfigs.release
+            debuggable false
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField "String", "FIREBASE_PARENT", "\"release\""
+        }
+    }
+}
+
+dependencies {
+
+    compile "com.android.support:design:${versions.supportLib}"
+    compile "com.android.support:customtabs:${versions.supportLib}"
+    compile "com.android.support:support-v4:${versions.supportLib}"
+    compile "com.android.support:support-v13:${versions.supportLib}"
+    compile "com.android.support:cardview-v7:${versions.supportLib}"
+    compile "com.android.support:appcompat-v7:${versions.supportLib}"
+    compile "com.android.support:recyclerview-v7:${versions.supportLib}"
+
+    compile "com.google.firebase:firebase-auth:${versions.googlePlay}"
+    compile "com.google.firebase:firebase-crash:${versions.googlePlay}"
+    compile "com.google.firebase:firebase-storage:${versions.googlePlay}"
+    compile "com.google.firebase:firebase-database:${versions.googlePlay}"
+    compile "com.google.android.gms:play-services-gcm:${versions.googlePlay}"
+    compile "com.google.android.gms:play-services-base:${versions.googlePlay}"
+    compile "com.google.android.gms:play-services-auth:${versions.googlePlay}"
+    compile "com.google.android.gms:play-services-nearby:${versions.googlePlay}"
+    compile "com.google.android.gms:play-services-location:${versions.googlePlay}"
+
+    compile('com.mikepenz:materialdrawer:5.9.4@aar') {
+        transitive = true
+    }
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.karumi:dexter:4.1.1'
+    compile 'com.jakewharton:butterknife:8.7.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.github.jkwiecien:EasyImage:2.0.2'
+    compile 'com.firebaseui:firebase-ui-auth:2.1.0'
+    compile 'com.afollestad.material-dialogs:core:0.9.4.5'
+    compile 'com.afollestad.material-dialogs:commons:0.9.4.5'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.7.0'
+}
+
+apply plugin: 'com.google.gms.google-services'

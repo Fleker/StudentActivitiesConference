@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/photo"
+        android:icon="@drawable/ic_camera"
+        android:orderInCategory="1"
+        android:id="@+id/photo"
+        app:showAsAction="ifRoom"
+        />
+    <item android:title="@string/nearby"
+        android:icon="@drawable/ic_nearby"
+        android:orderInCategory="0"
+        android:id="@+id/nearby"
+        app:showAsAction="ifRoom"
+        />
+</menu>
